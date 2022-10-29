@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1 class="title">SPLI<br>TTER</h1>
+  </header>
+
+  <main>
+    <div class="item__container">
+
+
+      <!--* OPERATORS  -->
+
+
+      <div class="operators">
+        <div class="bill">
+          <h4>Bill</h4>
+          <form class="form" action="">
+            <input type="number" min="1" name="number" id="" placeholder="$0">
+          </form>
+        </div>
+
+        <div class="tip">
+          <h4>Select Tip %</h4>
+          <div class="tip__select">
+            <button class="tip__btn">5%</button>
+            <button class="tip__btn">10%</button>
+            <button class="tip__btn">15%</button>
+            <button class="tip__btn">25%</button>
+            <button class="tip__btn">50%</button>
+            <button class="tip__btn">Custom</button>
+          </div>
+        </div>
+
+        <div class="num-people">
+          <h4>Number of people</h4>
+          <form class="form" action="">
+            <input  type="number" min="1" name="number" id="" placeholder="0">
+          </form>
+        </div>
+      </div>
+
+
+      <!--* RESULTS  -->
+
+
+      <div class="result">
+
+        <div class="total__container">
+
+          <div class="result__container">
+  
+            <div class="text__container">
+              <h4>Tip Amount</h4>
+              <p>/ person</p>
+            </div>
+  
+            <h2>$0.00</h2>
+  
+          </div>
+  
+          <div class="result__container">
+  
+            <div class="text__container">
+              <h4>Total</h4>
+              <p>/ person</p>
+            </div>
+  
+            <h2>$0.00</h2>
+  
+          </div>
+
+        </div>
+
+        <button class="result__btn">Reset</button>
+
+      </div>      
+
+    </div>
+  </main>
+
+
+
+  <!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <!--* SCRIPTS  -->
+
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
