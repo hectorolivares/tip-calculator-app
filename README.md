@@ -41,8 +41,8 @@ Users should be able to:
 
 ## Links
 
-- Frontend Mentor solution: 
-- Live Site URL: 
+- Frontend Mentor solution: [Click here](https://tipcalculatorkdm.netlify.app/)
+- Live Site URL: [Click here](https://tipcalculatorkdm.netlify.app/)
 
 ## Author
 
