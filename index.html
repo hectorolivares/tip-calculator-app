@@ -3,118 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Tip calculator app</title>
-
-  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+  <link rel="stylesheet" href="src/css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="assets/css/styles.css">
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="src/css/styles.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
 
 </head>
 <body>
+<header>
+  <div class="logo__ctr">
+    <img class="logo" src="./public/logo.svg" alt="">
+  </div>
+</header>
 
-  <header>
-    <h1 class="title">SPLI<br>TTER</h1>
-  </header>
+<main>
+  <div class="container">
 
-  <main>
-    <div class="item__container">
+    <!--* operators  -->
 
+    <div class="operators">
+      <div class="bill">
+        <h4 class="input__title">Bill</h4>
 
-      <!--* OPERATORS  -->
-
-
-      <div class="operators">
-        <div class="bill">
-          <h4>Bill</h4>
-
-          <div class="input__container">
-            <!-- <img class="operator__icon" src="images/icon-dollar.svg" alt=""> -->
-            <input class="operator__input bill__input" type="number" min="1" name="number" placeholder="0">
-          </div>
-
+        <div class="input__container">
+          <input class="operator__input bill__input" id="billValue" type="number" min="1" name="number" placeholder="0">
         </div>
 
-        <div class="tip">
-          <h4>Select Tip %</h4>
-          <div class="tip__select">
-            <button class="tip__btn">5%</button>
-            <button class="tip__btn">10%</button>
-            <button class="tip__btn">15%</button>
-            <button class="tip__btn">25%</button>
-            <button class="tip__btn">50%</button>
-            <input class="custom__btn" type="number" placeholder="Custom" min="1" name="number" id="">
-            <!-- <button class="custom__btn">Custom</button> -->
-          </div>
-        </div>
+      </div>
 
-        <div class="people">
-          <h4>Number of people</h4>
-
-          <div class="input__container">
-            <!-- <img class="operator__icon" src="images/icon-person.svg" alt=""> -->
-            <input class="operator__input people__input" type="number" min="1" name="number" placeholder="0">
-          </div>
-
+      <div class="tip__ctr">
+        <h4 class="input__title">Select Tip %</h4>
+        <div class="tip__grid">
+          <button class="tip__btn" value=".05">5%</button>
+          <button class="tip__btn" value=".10">10%</button>
+          <button class="tip__btn" value=".15">15%</button>
+          <button class="tip__btn" value=".25">25%</button>
+          <button class="tip__btn" value=".50">50%</button>
+          <input class="custom__btn" type="number" placeholder="Custom" min="1" name="number" id="customBtn">
         </div>
       </div>
 
+      <div class="people__ctr">
+        <div class="title__ctr">
+          <h4 class="input__title">Number of people</h4>
+          <h4 class="people__error" id="peopleError">Can't be zero</h4>
+        </div>
 
-      <!--* RESULTS  -->
+        <div class="input__container">
+          <input class="operator__input people__input" id="peopleValue" type="number" min="1" name="number" placeholder="0">
+        </div>
+      </div>
+    </div>
 
+    <!--* results  -->
 
-      <div class="result">
+    <div class="result__ctr">
+      <div class="total__container">
+        <div class="total__ctr">
 
-        <div class="total__container">
-
-          <div class="result__container">
-  
-            <div class="text__container">
-              <h4>Tip Amount</h4>
-              <p>/ person</p>
-            </div>
-  
-            <h2>$<span>0.00</span></h2>
-  
+          <div class="text__container">
+            <h4>Tip Amount</h4>
+            <p>/ person</p>
           </div>
-  
-          <div class="result__container">
-  
-            <div class="text__container">
-              <h4>Total</h4>
-              <p>/ person</p>
-            </div>
-  
-            <h2>$<span>0.00</span></h2>
-  
-          </div>
+
+          <h2>$<span id="totalTip">0.00</span></h2>
 
         </div>
 
-        <button class="result__btn">Reset</button>
+        <div class="total__ctr">
 
-      </div>      
+          <div class="text__container">
+            <h4>Total</h4>
+            <p>/ person</p>
+          </div>
+
+          <h2>$<span id="totalPerson">0.00</span></h2>
+
+        </div>
+
+      </div>
+
+      <button class="reset__btn" id="reset">Reset</button>
 
     </div>
-  </main>
-  
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 
-  <!--* SCRIPTS  -->
+  </div>
+</main>
 
-  <script src="assets/js/app.js"></script>
+<!--* scripts  -->
+
+<script src="index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
