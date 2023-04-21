@@ -1,4 +1,4 @@
-# Tip calculator app
+# Tip calculator app 💸
 
 ![Design preview for the Tip calculator app coding challenge](./design/cover-app.png)
 
@@ -8,7 +8,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Tip calculator app](#tip-calculator-app)
+- [Tip calculator app 💸](#tip-calculator-app-)
   - [About](#about)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
