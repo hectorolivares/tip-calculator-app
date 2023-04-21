@@ -38,7 +38,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flex and grid Layout
 
-
 ## Links
 
 - Frontend Mentor solution: [Click here](https://tipcalculatorkdm.netlify.app/)
