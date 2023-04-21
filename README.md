@@ -37,7 +37,7 @@ Users should be able to:
 
 ## Links
 
-- Frontend Mentor solution: [Click here](https://tipcalculatorkdm.netlify.app/)
+- Frontend Mentor solution: [Click here](https://www.frontendmentor.io/solutions/tip-calculator-app-sass-js-11nJlKoSOM)
 - Live Site URL: [Click here](https://tipcalculatorkdm.netlify.app/)
 
 ## Author
