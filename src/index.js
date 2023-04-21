@@ -87,6 +87,7 @@
     totalTip.innerHTML = "0.00";
     reset.style.pointerEvents = "";
     reset.style.opacity = "";
+    removeFocus();
     iptBill.value = "";
     btnCustom.value = "";
     iptPeople.value = "";
