@@ -259,7 +259,7 @@ header {
     border-bottom-right-radius: 0;
   }
   .operators {
-    width: 85%;
+    width: 90%;
     height: 100%;
   }
   .tip__select {
@@ -268,7 +268,7 @@ header {
     row-gap: 1.2rem;
   }
   .result__ctr {
-    width: 85%;
+    width: 90%;
     height: 100%;
   }
 }
