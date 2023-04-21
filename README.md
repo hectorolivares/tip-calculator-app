@@ -8,9 +8,6 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Tip calculator app 💸](#tip-calculator-app-)
-  - [About](#about)
-  - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
   - [My process](#my-process)
