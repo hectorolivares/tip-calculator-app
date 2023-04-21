@@ -264,8 +264,8 @@ header {
     row-gap: 1.2rem;
   }
   .result__ctr {
-    width: 90%;
-    height: 50%;
+    width: 85%;
+    height: 100%;
   }
 }
 
