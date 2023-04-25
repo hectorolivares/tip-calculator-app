@@ -42,8 +42,6 @@ Users should be able to:
 
 ## Author
 
-Challlenge by [Frontend Mentor](https://www.frontendmentor.io). Code by [Héctor Olivares](https://github.com/hectorolivares)
-
 - Website - [Héctor Olivares](https://www.hectorolivares.me/)
 - Frontend Mentor - [@hectorolivares](https://www.frontendmentor.io/profile/hectorolivares)
 - Twitter - [@hektorolivares](https://twitter.com/hektorolivares)
