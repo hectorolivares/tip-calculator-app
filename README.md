@@ -1,22 +1,10 @@
-# Tip calculator app 💸
+<div align="center">
+  <h1>Tip calculator app</h1>
+</div>
 
 ![Design preview for the Tip calculator app coding challenge](./design/cover-app.png)
 
-## About
-
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Links](#links)
-  - [Author](#author)
-
-## Overview
-### The challenge
+## The challenge
 
 Users should be able to:
 
