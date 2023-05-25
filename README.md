@@ -2,7 +2,7 @@
   <h1>Tip calculator app</h1>
 </div>
 
-![Design preview for the Tip calculator app coding challenge](./design/cover-app.png)
+![Design preview for the Tip calculator app coding challenge](/public/tca-cover.png)
 
 ## The challenge
 
